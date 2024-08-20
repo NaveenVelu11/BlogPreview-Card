@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: "Figtree";
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 90px;
+}
+
+.section {
+    width: 390px;
+    border: 2px solid black;
+    border-radius: 16px;
+    margin: 30px;
+    background-color: whitesmoke;
+    box-shadow: 6px 6px black;
+    margin-bottom: 10px;
+}
+
+img {
+    margin: 30px;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subsection h3 {
+    background-color: hsl(47, 88%, 63%);
+    margin: 30px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    font-weight: 00;
+    padding: 2px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.subsection h4 {
+    margin: 30px;
+    margin-top: 1px;
+    padding: 1px;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 12px;
+    font-weight: 100;
+}
+
+.subsection h2 {
+    margin: 30px;
+    color: black;
+    font-size: 20px;
+    margin-top: 1px;
+    font-weight: 700;
+    font-size-adjust: initial;
+    margin-bottom: 10px;
+}
+
+h4.para {
+    color: gray;
+    margin: 30px;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.subsection img {
+    margin-top: 0.4rem;
+    display: flex;
+    height: 60%;
+    max-width: 50%;
+}
+
+.subsection h2:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-left: 30px; /* Align with other elements */
+    margin-top: 0.4rem;
+    gap: 8px; 
+}
+
+.author img {
+    width: 40px;
+    height: 40px;
+    margin: 0; 
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+h3.name {
+    margin: 0;
+    font-weight: 900;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
